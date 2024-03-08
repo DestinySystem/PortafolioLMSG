@@ -14,3 +14,14 @@ main{
     max-width: 100vw;
     min-height: 100vh;
 }
+
+
+#botonDesc{
+    background-image:url('/images/Icons/descripcion.webp');
+    background-repeat:no-repeat;
+    height:4rem;
+    width: 4rem;
+    border-radius: 10%;
+    background-size: 4rem 4rem;
+    background-position:center;
+}
