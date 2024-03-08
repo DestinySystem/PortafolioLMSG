@@ -5,12 +5,101 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main{
     /* Aqui agregamos la propiedad Background Image para ponerla como fondo */
     background-image: url('../images/Background/fotor-ai-20240227134032.jpg');
     /* Est propiedad sirve para que la imagen "calze" correctamente en proporciones */
     background-size: cover;
-    /* Asignamos lo grande que sera la imagen del dispositivo */
-    max-width: 100vw;
-    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100rem;
+    height: 55rem;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+        'a1 b1 c1 d1 e1' 
+        'a2 b2 c2 d3 e2' 
+        'a3 b3 c3 d3 e3' 
+        'a4 b4 c4 d4 e4' 
+        'a5 b5 c5 d5 e5';
+    height: 100%;
+}
+
+.item-1 {
+    grid-area: b3;
+    background-color: transparent;
+    border:0px;
+    transition: transform 150ms;
+    &:hover{
+        color:yellow;
+        transform: scale(1.3);
+        
+    }
+}
+.item-2{
+    grid-area: d3;
+    background-color: transparent;
+    border:0px;
+    transition: transform 150ms;
+    color:white;
+    font-weight: bold;
+    &:hover{
+        color:pink;
+        transform: scale(1.3);
+    }
+}
+
+.ventana {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -80%);
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.barra-titulo {
+    width: 100%;
+    height: 30px;
+    background-color: #008080;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cerrar {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    height: calc(100% - 30px);
+    max-width: 100%;
+
+}
+
