@@ -25,7 +25,7 @@ body{
 }
 main{
     /* Aqui agregamos la propiedad Background Image para ponerla como fondo */
-    background-image: url('../images/Background/fotor-ai-20240227134032.jpg');
+    background-image: url('../images/Background/fotor-ai-20240227134032.webp');
     /* Est propiedad sirve para que la imagen "calze" correctamente en proporciones */
     background-size: cover;
     background-position: center center;
@@ -119,7 +119,7 @@ main{
 
 @media (max-width: 1400px) {
     main {
-      background-image: url(/images/Background/fotor-ai-20240227134247.jpg);
+      background-image: url("/images/Background/fotor-ai-20240227134247.webp");
      & .item-1, .item-2{
         display: none;
      }
