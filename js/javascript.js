@@ -66,6 +66,8 @@ btn_me.addEventListener("click", () => {
     "<img src='https://www.shutterstock.com/image-illustration/panda-bear-bubu-dudu-couple-600nw-2404973101.jpg'/>";
     
 
+let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+width=600,height=300,left=100,top=100`;
 
     // Agregar elementos a la barra de título
     barraTitulo.appendChild(btnCerrar);
