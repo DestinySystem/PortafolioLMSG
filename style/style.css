@@ -1,14 +1,27 @@
 /* Aqui se configura, accedemos a la etiqueta main que es la principal para poner el fondo que se necesita*/
 
+
+
 *{
     /* Aqui Normalizamos los valores del navegador en toda la pagina */
     margin: 0;
     padding: 0;
 }
+
+
+p{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 100;
+    font-style: normal;   
+    font-size: 20px;
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 main{
     /* Aqui agregamos la propiedad Background Image para ponerla como fondo */
@@ -100,6 +113,17 @@ main{
     overflow: auto;
     height: calc(100% - 30px);
     max-width: 100%;
-
 }
+
+
+
+@media (max-width: 1400px) {
+    main {
+      background-image: url(/images/Background/fotor-ai-20240227134247.jpg);
+     & .item-1, .item-2{
+        display: none;
+     }
+    }
+
+  }
 
