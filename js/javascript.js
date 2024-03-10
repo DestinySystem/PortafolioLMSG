@@ -14,7 +14,7 @@ btn_monitor.addEventListener("click", () => {
     
     // Crear un botón para cerrar la ventana
     const btnCerrar = document.createElement("button");
-    btnCerrar.textContent = "X";
+    btnCerrar.textContent = "x";
     btnCerrar.className = "btn-cerrar";
     btnCerrar.addEventListener("click", () => {
         document.body.removeChild(ventana);
@@ -52,7 +52,7 @@ btn_me.addEventListener("click", () => {
     barraTitulo.style.color="black"
     // Crear un botón para cerrar la ventana
     const btnCerrar = document.createElement("button");
-    btnCerrar.textContent = "X";
+    btnCerrar.textContent = "x";
     btnCerrar.className = "btn-cerrar";
     btnCerrar.addEventListener("click", () => {
         document.body.removeChild(ventana);
