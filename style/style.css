@@ -188,6 +188,11 @@ main{
         display: none;
      }
      
+     .cat{
+       margin-top: 10px;
+       margin-bottom: 10px;
+     }
+
      #categoria1{
         grid-area: a1;
      }
@@ -222,7 +227,7 @@ main{
     /*  */
     .grid {
         grid-template-columns: 1fr !important;
-        grid-template-rows: 75% !important;
+        grid-template-rows: 100% !important;
         gap: 0px;
         grid-template-areas: 
         'a1' 
