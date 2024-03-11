@@ -26,7 +26,7 @@ body{
 }
 main{
     /* Aqui agregamos la propiedad Background Image para ponerla como fondo */
-    background-image: url('../images/Background/fotor-ai-20240227134032.jpg');
+    background-image: url('../images/Background/fotor-ai-20240227134032.webp');
     /* Est propiedad sirve para que la imagen "calze" correctamente en proporciones */
     background-size: cover;
     background-position: center center;
@@ -87,6 +87,10 @@ main{
     background-color: #ffffff;
     border: 2px solid #000000;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+    p{
+        font-size: 23px;
+    }
 }
 
 .barra-titulo {
@@ -147,8 +151,6 @@ main{
 }
 
 .contenido {
-    display: flex;
-    justify-content: space-evenly;
     padding: 10px;
     box-sizing: border-box;
     overflow: auto;
@@ -174,7 +176,7 @@ main{
      
 
      &>.blur{
-        background-image: url('/images/Background/fotor-ai-20240227134247.jpg');
+        background-image: url('/images/Background/fotor-ai-20240227134247.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -266,8 +268,8 @@ main{
     }
     
 }
-  @keyframes animClickme {
+  /* @keyframes animClickme {
     0% { transform: scale(1); }
     50% { transform: scale(1.3); }
     100% { transform: scale(1); }
-  }
+  } */
