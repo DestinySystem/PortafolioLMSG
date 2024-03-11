@@ -177,7 +177,7 @@ main{
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 840px) {
     html{
         scroll-behavior: smooth !important; 
         -moz-scroll-behavior: smooth !important;
@@ -194,7 +194,6 @@ main{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        content: "";
         min-width:100%;
         min-height: 100%;
         position:fixed;
@@ -217,10 +216,10 @@ main{
         grid-template-rows: 80% !important;
         gap: 0px;
         grid-template-areas: 
-        'a1 ' 
-        'a2 ' 
-        'a3 ' 
-        'a4 ' 
+        'a1' 
+        'a2' 
+        'a3' 
+        'a4' 
         'nav';
     }
     /*  */
@@ -279,6 +278,11 @@ main{
     }
     .cat{
         display: block;
+        & article {
+            &>p{
+                margin-bottom: 20px;
+            }
+        }
     }
     
 }
