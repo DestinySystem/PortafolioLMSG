@@ -63,17 +63,31 @@ main{
 }
 .item-1{
     grid-area:b3;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/7390/7390844.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(1);
+    transition: all 130ms;
     &:hover{
-        color:yellow;
+        transform: scale(1.2);
+        cursor: pointer;
     }
 }
 .item-2{
     grid-area: d3 ;
     color:white;
     font-weight: bold;
+    background-image: url('https://images.vexels.com/media/users/3/311217/isolated/preview/5ec06716296c0b4e6f97ac7634158a15-mujer-verano-personaje-kawaii.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(1);
+    transition: all 130ms;
     &:hover{
-        color:pink;
         
+        transform: scale(1.2);
+        cursor: pointer;
     }
 }
 

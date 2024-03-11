@@ -10,7 +10,7 @@ btn_monitor.addEventListener("click", () => {
     // Crear un div para la barra de título
     const barraTitulo = document.createElement("div");
     barraTitulo.className = "barra-titulo";
-    barraTitulo.textContent = "Documento Profesional";
+    barraTitulo.textContent = "Experiencia Personal";
     
     // Crear un botón para cerrar la ventana
     const btnCerrar = document.createElement("button");
