@@ -188,6 +188,15 @@ main{
         display: none;
      }
      
+     #categoria1{
+        grid-area: a1;
+     }
+     #categoria2{
+        grid-area: a2;
+     }
+     #categoria3{
+        grid-area: a3;
+     }
 
      &>.blur{
         background-image: url('/images/Background/fotor-ai-20240227134247.webp');
@@ -213,7 +222,7 @@ main{
     /*  */
     .grid {
         grid-template-columns: 1fr !important;
-        grid-template-rows: 80% !important;
+        grid-template-rows: 75% !important;
         gap: 0px;
         grid-template-areas: 
         'a1' 
